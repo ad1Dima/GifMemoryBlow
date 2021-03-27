@@ -24,9 +24,10 @@
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <Image Width="150" Height="150" Source="ms-appx:///cortana.gif">
-                        <interactivity:Interaction.Behaviors>
+                        <!--Fix for memory consuption in background-->
+                        <!--<interactivity:Interaction.Behaviors>
                             <local:PauseGifInBackgroundBehavior/>
-                        </interactivity:Interaction.Behaviors>
+                        </interactivity:Interaction.Behaviors>-->
                     </Image>
                 </DataTemplate>
             </GridView.ItemTemplate>
