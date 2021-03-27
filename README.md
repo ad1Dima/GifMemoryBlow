@@ -5,8 +5,8 @@ this is example of gif hight resources consumption in UWP app.
 1. Run application
 2. Open Task manager, observe very hight CPU utilisation
 3. Minimize application (do not stop playback, but you can turn volume off)
-4. Wait for about 3 minutes (depends of your PC hardvare)
-5. Restore app
+4. Wait for about 3 minutes (depends on your PC hardware)
+5. Restore appCancel Changes
 6. Observe how all you RAM is gone, 100% disk utilisation. PC is unresponsive
 
 ## Workaround for memory consumption in background
